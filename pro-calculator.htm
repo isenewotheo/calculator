@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pro-calculator</title>
+</head>
+<link rel="stylesheet" href="pro-calculator.css">
+<body>
+    <main class="main">
+        <div class="wrapper">
+            <div class="screen">
+                <div id="screen-top"></div>
+                <div id="screen-bottom">0</div>
+            </div>
+            <div class="calculator-buttons">
+                <div class="colums">
+                    <button class="btn" id="number">7</button>
+                    <button class="btn" id="number">8</button>
+                    <button class="btn" id="number">9</button>
+                    <button class="btn black" id="opKey">+</button>
+                </div>
+                <div class="colums">
+                    <button class="btn" id="number">4</button>
+                    <button class="btn" id="number">5</button>
+                    <button class="btn" id="number">6</button>
+                    <button class="btn black" id="opKey">-</button>
+                </div>
+                <div class="colums">
+                    <button class="btn" id="number">1</button>
+                    <button class="btn" id="number">2</button>
+                    <button class="btn" id="number">3</button>
+                    <button class="btn black" id="opKey">*</button>
+                </div>
+                <div class="colums">
+                    <button style="background-color: red; color: white;" id="clear" class="btn">c</button>
+                    <button class="btn" id="number">0</button>
+                    <button style="background-color: red; font-size: 1.4rem; color: white;" id="delete" class="btn">&#8592;</button>
+                    <button class="btn black" id="opKey">/</button>
+                </div>
+                <div class="colums">
+                    <button style="width: 100%;" class="btn black" id="equal">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="pro-calculator.js"></script>
+    <script>
+        let p = '';
+        if (p === 'd' || p === 'f' || p === 'g') {
+            console.log('true');
+        } else {
+            console.log('false');
+            
+        }
+
+    </script>
+</body>
+</html>
